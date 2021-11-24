@@ -1,0 +1,11 @@
+//Assignment 1
+//time complexity of given code snippet
+a=1
+b=1
+while(b<=n)//loop runs for n+1
+{
+   a+=1;//n times
+   b+=a;// n times
+   printf("Hi letsupgraders");//n times
+ }
+ ans:O(n)
